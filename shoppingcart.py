@@ -46,3 +46,5 @@ def shopping_cart():
                 show_items(shopping_list)
             elif confirm == 'n':
                 continue
+        else:
+            print("Invalid!! Try Again. ")
